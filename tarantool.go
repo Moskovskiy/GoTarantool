@@ -5,7 +5,7 @@ import (
 
 	"github.com/tarantool/go-tarantool"
 )
-_DebugEnabled := false
+const _DebugEnabled = false
 
 // tuple is used to store any number of incoming variables and pass them to TarantoolDB
 type tuple = []interface{}
