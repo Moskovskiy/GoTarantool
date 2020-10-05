@@ -1,8 +1,6 @@
 package tarantoolapi
 
 import (
-	"fmt"
-
 	"github.com/tarantool/go-tarantool"
 )
 
